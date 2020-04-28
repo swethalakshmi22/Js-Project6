@@ -49,8 +49,10 @@ h1 {
 
 #input {
    color: rgba(255,0,0,1);
-   border: 3px solid rosybrown;
+   border: 2px solid rosybrown;
    border-radius: 2em;
    width: 100%;
    height: 30px;
 }
+
+#input:focus { outline: none; }
